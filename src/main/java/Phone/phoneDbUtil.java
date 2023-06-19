@@ -29,7 +29,7 @@ public class phoneDbUtil {
 
             myConn = DriverManager.getConnection(url, username, password);
 
-            String sql = "select * from phone order by Name";
+            String sql = "select * from phone ";
 
             myStmt = myConn.createStatement();
 
